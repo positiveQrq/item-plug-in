@@ -64,7 +64,7 @@ var page = {
         var url = pageInit.url;
 
         if (!Array.isArray(staticImg)) throw new TypeError('Expected Array, got ' + (typeof staticImg));
-        if (!Object.prototype.toString.call(loadingfn)) throw new TypeError('Expected Function, got ' + (typeof staticImg));
+        if (!Object.prototype.toString.call(loadingfn)) throw new TypeError('Expected Function, got ' + (typeof loadingfn));
         
         this.url = url;
         this.staticImg = staticImg;
