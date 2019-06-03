@@ -1,13 +1,21 @@
-# item-plug-in
-项目中使用小插件
+# records
 
-# h5加载图片
+> put on records
 
-	调用方式：
-		page.config({
-			url: '',  //图片绝对路径 
-			staticImg: [],  //图片名称
-			loadingfn:function(loadingNumber) { //加载处理函数
-		        console.log(loadingNumber)
-		    }
-		})
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
